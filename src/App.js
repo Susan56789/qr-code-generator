@@ -1,5 +1,6 @@
 import React, { useState, useRef } from "react";
 import { QRCodeCanvas } from "qrcode.react";
+import "./App.css";
 
 export default function App() {
   const [url, setUrl] = useState("");
