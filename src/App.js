@@ -73,6 +73,20 @@ export default function App() {
           </div>
         )}
       </div>
+
+      <footer className="footer">
+        <p>
+          Designed by{" "}
+          <a 
+            href="https://quirkwebstudios.co.ke/susan-wairimu/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="footer-link"
+          >
+            Susan
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }
